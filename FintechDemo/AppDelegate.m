@@ -22,7 +22,7 @@
     
     // Override point for customization after application launch.
     [[NXOAuth2AccountStore sharedStore] setClientID:@"<API CLIENT ID>"
-                                             secret:@"<API CLIENT SECRET>"
+                                             secret:@"<API CLIENT SECRET>" 
                                               scope:[NSSet setWithObjects:kArionFintechAuthorizationScopes, nil]
                                    authorizationURL:[NSURL URLWithString:kArionFintechAuthorizationUrl]
                                            tokenURL:[NSURL URLWithString:kArionFintechAuthorizationTokenUrl]

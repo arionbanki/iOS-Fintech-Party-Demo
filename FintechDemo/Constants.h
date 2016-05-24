@@ -17,8 +17,8 @@
 #define kArionFintechAuthorizationUrl @"https://arionapi-identityserver3-sandbox.azurewebsites.net/connect/authorize"
 #define kArionFintechAuthorizationTokenUrl @"https://arionapi-identityserver3-sandbox.azurewebsites.net/connect/token"
 
-#define kArionFintechAccountsUrl @"https://arionapi-sandbox.azure-api.net/accounts/v1/getall"
+#define kArionFintechAccountsUrl @"https://arionapi-sandbox.azure-api.net/accounts/v1/accounts"
 #define kArionFintechCurrencyUrl @"https://arionapi-sandbox.azure-api.net/currency/v1/currencyRates/CentralBankRate"
-#define kArionFintechNationalRegistryPartyUrl @"https://arionapi-sandbox.azure-api.net/nationalregistry/v1/party/%@"
-#define kArionFintechNationalRegistryPartiesUrl @"https://arionapi-sandbox.azure-api.net/nationalregistry/v1/parties/%@"
+#define kArionFintechNationalRegistryPartyUrl @"https://arionapi-sandbox.azure-api.net/nationalregistry/v1/nationalRegistryParty/%@"
+#define kArionFintechNationalRegistryPartiesUrl @"https://arionapi-sandbox.azure-api.net/nationalregistry/v1/nationalRegistryParties/%@"
 #endif /* Constants_h */
