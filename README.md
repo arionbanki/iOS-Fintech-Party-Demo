@@ -1,5 +1,5 @@
 # iOS sýnidæmi fyrir Fintech partý Arion banka hf. í júní 2016 
-<Demo biðlari iOS, auðkennir og kallar á API með einfaldri virkni.
+Demo biðlari iOS, auðkennir og kallar á API með einfaldri virkni.
 
 Authorize endpoint:
 https://arionapi-identityserver3-sandbox.azurewebsites.net/connect/authorize
