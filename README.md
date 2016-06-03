@@ -12,8 +12,10 @@ https://arionapi-sandbox.portal.azure-api.net/docs/services/574d5a9cdbc60f015c0a
 *<b>[flowType]</b> annað hvort "codeflow" eða "implicit" - í flestum tilfellum er þetta "codeflow"<br><br>
 
 - Muna eða skrifa niður clientSecret'ið sem menn fengu úthlutað til innskráningar, og nota þegar menn skrá sig inn. ClientSecret'ið verður ekki gefið aftur upp.<br>
+<br>
 
-Til að geta keyrt þennan demo client þá þarf <a href="https://guides.cocoapods.org/using/getting-started.html">Cocoapods</a> að vera uppsett á vélinni. 
+
+03 - Til að geta keyrt þennan demo client þá þarf <a href="https://guides.cocoapods.org/using/getting-started.html">Cocoapods</a> að vera uppsett á vélinni. 
 
 Svo þarf að keyra eftirfandi skipun úr rótinni á verkefninu úr terminal
 <div class="highlight highlight-source-shell"><pre>pod update</pre></div>
