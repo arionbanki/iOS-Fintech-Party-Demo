@@ -15,7 +15,8 @@ https://arionapi-sandbox.portal.azure-api.net/docs/services/574d5a9cdbc60f015c0a
 <br>
 
 
-03 - Til að geta keyrt þennan demo client þá þarf <a href="https://guides.cocoapods.org/using/getting-started.html">Cocoapods</a> að vera uppsett á vélinni. 
+
+Til að geta keyrt þennan demo client þá þarf <a href="https://guides.cocoapods.org/using/getting-started.html">Cocoapods</a> að vera uppsett á vélinni. 
 
 Svo þarf að keyra eftirfandi skipun úr rótinni á verkefninu úr terminal
 <div class="highlight highlight-source-shell"><pre>pod update</pre></div>
@@ -26,7 +27,7 @@ Til að geta sótt gögn frá Fintech þjónustunum þarf að setja inn develope
 Lykilinn þarf að setja inn í constants.h
 <div class="highlight highlight-source-shell"><pre>#define kArionFintechDeveloperKey @"&lt;API DEVELOPER KEY&gt;"</pre></div>
 <br/>
-3. Setja inn ClientID og ClientSecret í AppDelegate.m
+Setja inn ClientID og ClientSecret í AppDelegate.m
 <div class="highlight highlight-source-shell"><pre>
     [[NXOAuth2AccountStore sharedStore] setClientID:@"&lt;API CLIENT ID&gt;"
                                              secret:@"&lt;API CLIENT SECRET&gt;"
